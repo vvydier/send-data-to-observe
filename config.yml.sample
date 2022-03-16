@@ -1,0 +1,10 @@
+integration_name: com.observeinc.capone
+run_as_service: False
+cron_interval_minutes: 60
+service_schedule: { "hour":  "*", "minute": "30" }
+observeinc:
+  data_format: "events"
+  customer_id: ""
+  ingest_token: ""
+  path: ""
+
